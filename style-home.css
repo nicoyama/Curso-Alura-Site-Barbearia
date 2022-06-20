@@ -1,0 +1,49 @@
+body {
+	background: #276faa
+}
+
+#banner {
+	width: 25%;
+}
+
+h1 {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #62b3d3;
+}
+
+.deregue {
+	background: #5b9baf;
+	padding: 30px;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+.imagemderegue {
+	max-width: 25%;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.centrodeumbanda {
+	display: flex;
+	justify-content: center;
+}
