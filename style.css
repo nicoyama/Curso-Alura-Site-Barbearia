@@ -249,15 +249,26 @@ td, th {
     font-weight: bold;
 }
 
+.itens:before {
+    content:"🦐"
+}
+
 .imagemderegue {
     width: 35%;
+    opacity: 50%;
+    transition: 400ms;
 
+}
+
+.imagemderegue:hover {
+        opacity: 100%;    
 }
 
 .shiny {
     width: 150px;
     float: left;
     margin: 0 20px 20px 0;
+    box-shadow: 10px 10px 20px #000000;
 }
 
 .mapa {
@@ -282,4 +293,25 @@ td, th {
 
 .cor {
     background:rgb(168, 197, 235);
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {  
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, 
+}
+
+.contato {
+    width: 940px;
+    margin: 0 auto;
 }
